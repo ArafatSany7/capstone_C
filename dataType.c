@@ -7,6 +7,8 @@ int main() {
     double d;
     char s[100];
 
+   
+
     printf("Enter an integer: ");
     scanf("%d", &i);
 
@@ -27,5 +29,10 @@ int main() {
     printf("The Float is: %.2f\n", f);
     printf("The Double is: %.5f\n", d);
     printf("The String is: %s\n", s);
+
+
+
+
+
 
 }
