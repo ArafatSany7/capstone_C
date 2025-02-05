@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int i;
-    for (i = 0; i <= 10; i++)
+    int n = 10, i, sum = 0;
+
+    printf("Sum of first ten natural number is : ");
+    for (i = 0; i <= n; i++)
     {
-        printf("Hello mamur beta\n");
+        printf("%d", i);
+        sum += i;
     }
+    printf("\nThe sum is : %d", sum);
 }
